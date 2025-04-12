@@ -73,7 +73,6 @@ body {
   color: rgba(0, 0, 0, 0.5);
   line-height: 150%;
   overscroll-behavior: none;
-  -webkit-overflow-scrolling: touch;
 }
 @media screen and (max-width: 768px) {
   html,
@@ -139,7 +138,7 @@ body {
 
 section {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* -------------------------------------------

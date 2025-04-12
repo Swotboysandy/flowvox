@@ -3,53 +3,24 @@
 @section('content')
 <!-- Designed & Customized by Swotboysandy -->
 
-
-
-    <!-- wrapper -->
-    <div class="mil-wrapper" id="top">
-
-        <!-- cursor -->
-        <div class="mil-ball">
-            <span class="mil-icon-1">
-                <svg viewBox="0 0 128 128">
-                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
-                </svg>
-            </span>
-            <div class="mil-more-text">More</div>
-            <div class="mil-choose-text">Сhoose</div>
-        </div>
-        <!-- cursor end -->
-
-        <!-- scrollbar progress -->
-        <div class="mil-progress-track">
-            <div class="mil-progress"></div>
-        </div>
-        <!-- scrollbar progress end -->
-      
-        <!-- curtain -->
-        <div class="mil-curtain"></div>
-        <!-- curtain end -->
-
-        <!-- frame -->
-        <div class="mil-frame">
-            <div class="mil-frame-top">
-                <a href="index.html" class="mil-logo">
-                    <img src="/img/icons/logo.svg" alt="Logo">
-                </a>
-                <div class="mil-menu-btn">
-                    <span></span>
-                </div>
-            </div>            
-            <div class="mil-frame-bottom">
-                <div class="mil-current-page"></div>
-                <div class="mil-back-to-top">
-                    <a href="#top" class="mil-link mil-dark mil-arrow-place">
-                        <span>Back to top</span>
-                    </a>
+            <!-- preloader -->
+    <div class="mil-preloader">
+        <div class="mil-preloader-animation">
+            <div class="mil-pos-abs mil-animation-1">
+                <p class="mil-h3 mil-muted mil-thin">Hindi</p>
+                <p class="mil-h3 mil-muted">Quality</p>
+                <p class="mil-h3 mil-muted mil-thin">Global</p>
+            </div>
+            <div class="mil-pos-abs mil-animation-2">
+                <div class="mil-reveal-frame">
+                    <p class="mil-reveal-box"></p>
+                    <p class="mil-h3 mil-muted mil-thin">FlowVox.in</p>
                 </div>
             </div>
         </div>
-        <!-- frame end -->
+    </div>
+    <!-- preloader end -->
+
 
         <!-- content -->
         <div class="mil-content">
@@ -78,8 +49,9 @@
                                     </div>
                                 </div>
 
-                                <a href="About-us.html" class="mil-button mil-arrow-place mil-btn-space">
+                                <a href="about" class="mil-button mil-arrow-place mil-btn-space">
                                     <span>What we do</span>
+                                    
                                 </a>
                                 <!-- <a href="services.html" class="mil-button mil-arrow-place mil-btn-space">
                                     <span>What we do</span>
@@ -245,7 +217,9 @@
                             </div>
                         </div>
                         
-                          
+                        </div> <!-- closes .row -->
+</div> <!-- closes .container -->
+</section> <!-- closes .mil-soft-bg -->
                
             </div>
         </div>

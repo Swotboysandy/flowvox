@@ -7,17 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="{{ asset('img/icons/favicon.png') }}">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="{{ asset('css/plugins/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/plugins/bootstrap-grid.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/plugins/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/plugins/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/plugins/fancybox.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
     <title>FlowVox</title>
-    @vite(['resources/sass/style.scss'])
 
 </head>
 
